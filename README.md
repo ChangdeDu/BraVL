@@ -1,5 +1,5 @@
 # BraVL
-This is the official code for the paper "Beyond the Eye: Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features".
+This is the official code for the paper "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features".
 
 ## Preliminaries
 
@@ -17,18 +17,25 @@ conda activate BraVL                # activate conda env
 ## Download data
 Second, download the pre-processed trimodal data from https://figshare.com/articles/dataset/BraVL/17024591, unzip them, and put them at "./data" directory:
 ```bash
-unzip DIR-Wiki.zip -d data/
-unzip GOD-Wiki.zip -d data/
+unzip DIR-Wiki.zip -d BraVL_fMRI/data/
+unzip GOD-Wiki.zip -d BraVL_fMRI/data/
+unzip ThingsEEG-Text.zip -d BraVL_EEG/data/
 ```
-Note that, the raw (image and brain fMRI) data are not included here because they are too large. Raw ImageNet images and brain fMRI data can be downloaded from the corresponding official site. We provide python scripts for feature extraction and data preprocessing.
+Note that, the raw (image and brain fMRI/EEG) data are not included here because they are too large. Raw ImageNet images and brain fMRI data can be downloaded from the corresponding official site. We provide python scripts for feature extraction and data preprocessing.
 
 ## Experiments
 
 Experiments can be started by running the `job_trimodal` script.
 
 
-### running BraVL
-```bash
+### running BraVL on the Image-Text-fMRI datasets
+```
+cd BraVL_fMRI
+bash job_trimodal
+```
+### running BraVL on the Image-Text-EEG datasets
+```
+cd BraVL_EEG
 bash job_trimodal
 ```
 
