@@ -1,0 +1,124 @@
+#!/bin/bash
+
+EPOCH=100
+
+DATASET='DIR-Wiki'
+RATIO=''
+#######################################
+#  Subject 1
+#######################################
+SUBJECT='sub-01'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--stability_ratio=$RATIO \
+			--roi='LVC_HVC_IT'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'
+#######################################
+#  Subject 2
+#######################################
+SUBJECT='sub-02'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--stability_ratio=$RATIO \
+			--roi='LVC_HVC_IT'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'
+#######################################
+#  Subject 3
+#######################################
+SUBJECT='sub-03'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--stability_ratio=$RATIO \
+			--roi='LVC_HVC_IT'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'
+
+
+DATASET='GOD-Wiki'
+#######################################
+#  Subject 1
+#######################################
+SUBJECT='sub-01'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--roi='VC'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'
+#######################################
+#  Subject 2
+#######################################
+SUBJECT='sub-02'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--roi='VC'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'
+#######################################
+#  Subject 3
+#######################################
+SUBJECT='sub-03'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--roi='VC'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'
+#######################################
+#  Subject 4
+#######################################
+SUBJECT='sub-04'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--roi='VC'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'
+#######################################
+#  Subject 5
+#######################################
+SUBJECT='sub-05'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type='image_text' \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--roi='VC'\
+      --image_model='pytorch/repvgg_b3g4'\
+      --text_model='GPTNeo'

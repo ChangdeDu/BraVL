@@ -1,0 +1,158 @@
+#!/bin/bash
+
+EPOCH=500
+
+DATASET='ThingsEEG-Wiki'
+TEXTMODAL='CLIPText'
+IMAGEMODAL='pytorch/cornet_s_fine_tuned'
+AUGTYPE='no_aug'
+CHANNELS='17channels'
+########################################
+##  Subject 1
+########################################
+#SUBJECT='sub-01'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+#
+########################################
+##  Subject 2
+########################################
+#SUBJECT='sub-02'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+#
+########################################
+##  Subject 3
+########################################
+#SUBJECT='sub-03'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+#
+########################################
+##  Subject 4
+########################################
+#SUBJECT='sub-04'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+#
+########################################
+##  Subject 5
+########################################
+#SUBJECT='sub-05'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+#
+########################################
+##  Subject 6
+########################################
+#SUBJECT='sub-06'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+#
+########################################
+##  Subject 7
+########################################
+#SUBJECT='sub-07'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+
+#######################################
+#  Subject 8
+#######################################
+SUBJECT='sub-08'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type=$AUGTYPE \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--roi=$CHANNELS\
+      --image_model=$IMAGEMODAL\
+      --text_model=$TEXTMODAL
+
+########################################
+##  Subject 9
+########################################
+#SUBJECT='sub-09'
+#FUSION="joint_elbo"
+#python main_trimodal.py  \
+#			--end_epoch=$EPOCH \
+#			--method=$FUSION \
+#			--aug_type=$AUGTYPE \
+#			--sbj=$SUBJECT\
+#			--dataname=$DATASET \
+#			--roi=$CHANNELS\
+#      --image_model=$IMAGEMODAL\
+#      --text_model=$TEXTMODAL
+
+#######################################
+#  Subject 10
+#######################################
+SUBJECT='sub-10'
+FUSION="joint_elbo"
+python main_trimodal.py  \
+			--end_epoch=$EPOCH \
+			--method=$FUSION \
+			--aug_type=$AUGTYPE \
+			--sbj=$SUBJECT\
+			--dataname=$DATASET \
+			--roi=$CHANNELS\
+      --image_model=$IMAGEMODAL\
+      --text_model=$TEXTMODAL
