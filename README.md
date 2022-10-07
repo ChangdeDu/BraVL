@@ -1,5 +1,5 @@
 # BraVL
-This is the official code for the paper "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features".
+This is the official code for the paper "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features" (under review).
 
 ## Preliminaries
 
