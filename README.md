@@ -1,5 +1,5 @@
 # BraVL
-This is the official code for the paper "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)" (https://arxiv.org/abs/2210.06756).
+This is the official code for the paper "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2023)" (https://arxiv.org/abs/2210.06756).
 > - Authors: Changde Du, Kaicheng Fu, Jinpeng Li, Huiguang He
 
 ## Preliminaries
