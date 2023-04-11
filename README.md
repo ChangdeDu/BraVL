@@ -2,6 +2,11 @@
 This is the official code for the paper "Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2023)" (https://arxiv.org/abs/2210.06756v2).
 > - Authors: Changde Du, Kaicheng Fu, Jinpeng Li, Huiguang He
 
+![Dual coding of knowledge](figure1.png)
+![Illustration of the trimodal data](figure2.png)
+![Brain-Image-Text joint representation learning](figure3.png)
+![The voxel stability maps in the visual cortex](figure4.png)
+
 ## Preliminaries
 
 This code was developed and tested with:
