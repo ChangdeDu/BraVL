@@ -44,5 +44,17 @@ bash job_trimodal
 cd BraVL_EEG
 bash job_trimodal
 ```
+## Cite
+
+Please cite our paper if you use this code in your own work:
+```
+@article{du2023decoding,
+  title={Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features},
+  author={Du, Changde and Fu, Kaicheng and Li, Jinpeng and He, Huiguang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2023},
+  publisher={IEEE}
+}
+```
 
 If you have any questions about the code or the paper, we are happy to help!
